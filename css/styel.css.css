@@ -1,0 +1,720 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
+/*font-family: 'Satisfy', cursive;*/
+body{
+    padding: 0;
+    margin: 0;
+}
+.books1{
+    background:url(../images/svg1.jpg) ;
+        margin-bottom: 35px; 
+}
+img {
+    width:  370px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+.col-md-7.col-sm-12 h1 {
+    color: wheat;
+    font-family: 'Satisfy', cursive;
+}
+.col-md-7.col-sm-12 p {
+    color: wheat;
+   font-family: 'Roboto Mono', monospace; 
+}
+.dropdown-content {
+    color: white;
+}
+a.nav-link {
+    color: white;
+}
+a.nav-link:hover {
+    color: tomato;
+}
+h6 {
+    color: white;
+    letter-spacing: 2px;
+}
+i.fas.fa-book-reader {
+    font-size: 40px;
+    margin-left: 20px;
+    color: wheat;
+}
+
+i.fas.fa-book-reader:hover {color: tomato;}
+button.btn.btn-light.px-5.py-2:hover {
+    background: #ddd;
+}
+.pannel.text-left {
+    background: #ddd;
+    margin-top: 85px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    height: 240px;
+    margin-left: 25px;
+        margin-left: -30px;
+    box-shadow: 2px 5px 7px #777;
+    position: absolute;
+}
+.pannel.text-left h2 {
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pannel.text-left p {
+    margin-top: -20px;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 24px;
+    letter-spacing: -1px;
+    line-height: 25px;
+        padding-bottom: 20px;
+    clear: both;
+}
+.pray img {
+    width: 100%;
+    margin-left: 25px;
+    position: relative;
+    clear: both;
+}
+
+.cover{
+    width: 100%;
+    background: url(../images/back.jpg);
+    height: 190px;
+}
+.content.text-center h1 {
+    text-align: center;
+    color: wheat;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+.content.text-center p {
+    color: wheat;
+    padding-top: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+section.section2.container-fluid.p-0 {
+    margin-top: 35px;
+}
+.rect{
+    background: white;
+    width: 165px;
+    padding-left: 45px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 8px 10px 14px #620d1c;
+    border-radius: 8px;
+    margin-top: -65px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+}
+.rect h1 {
+    padding-right: 95px;
+    font-size: 35px;
+    color: brown;
+}
+
+.rect p {
+    padding-right: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 7px;
+    margin-left: -1px;
+}
+.purches.text-center h1 {
+    padding: 30px;
+    font-family: 'Satisfy', cursive;
+    background: radial-gradient(#9393e8, transparent);
+    border-radius: 105px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 30;
+}
+
+.purches.text-center p {
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: -20px;
+}
+.card {
+    padding: 0px;
+    margin: 35px;
+    box-shadow: 8px 10px 20px #85859e;
+    border-radius: 8px;
+}
+.title {
+    background: rgb(47 90 137 / 36%);
+    padding: 3px;
+}
+
+.title h5 {
+    padding-top: 13px;
+}
+a.btn.btn-dark.px-5.py-2.mb-5 {
+    margin-top: 26px;
+    font-family: 'Satisfy';
+}
+section.section3.container-fluid.p-0.text-center {
+    background: linear-gradient(#0000008f,#0000006b) ,url(../images/bookback.jpg);
+    color: wheat;
+        margin-top: 55px;
+}
+h1.social {
+    padding-top: 10px;
+    font-family: ui-serif;
+    margin-top: 25px;
+}
+p.sociall {
+    padding-top: 10px;
+    font-family: emoji;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.daskphn.d-flex.flex-row.justify-content-center {
+    background: chocolate;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: black;
+    border-radius: 31px;
+    margin-bottom: 20px;
+}
+.deskphn.d-flex.flex-row.justify-content-center {
+    background: chocolate;
+     margin-left: 120px;
+    margin-right: 120px;
+    color: black;
+    border-radius: 31px;
+    margin-bottom: 20px;
+}
+.serv.container-fluid {
+    background: linear-gradient(#920492,#460606);
+    margin-top: -20px;
+    position: relative;
+}
+h2.special {
+    padding-top: 32px;
+    color: wheat;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+p.about {
+    color: wheat;
+    font-family: 'Roboto Mono', monospace;
+}
+.iconss {
+    font-size: 40px;
+    color: #bd870c;
+    text-align: center;
+}
+.iconss:hover{
+    color: darkgray;
+}
+
+img.hdpic {
+    position: absolute;
+    width: 35%;
+    height: 200px;
+    float: right;
+    right: -385px;
+    margin-top: -185px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+section.section4 {
+    margin-top: 30px;
+}
+
+.card.mr-2.d-inline-block.shadow-lg {
+    margin: 0;
+    /* padding-top: 0; */
+    width: 75%;
+    box-shadow: 8px 8px 10px #ddd;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+.card-body p {
+    font-size: 13px;
+    font-family: fantasy;
+    background: radial-gradient(#9797dc, transparent);
+    border-radius: 80%;
+}
+
+.card-body h3 {
+    font-family: fantasy;
+}
+h1.text-dark {font-family: 'Satisfy', cursive;}
+
+p.text-secondary {
+    font-family: 'Satisfy', cursive;
+}
+footer {
+    background: #292525;
+    margin-top: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.column {
+    color: tomato;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: -15px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    padding: 5px;
+    cursor: pointer;
+}
+h4.tex {
+    color: tomato;
+    font-family: 'Satisfy';
+    letter-spacing: 1px;
+}
+h4.texy {
+    color: tomato;
+    font-family: 'Satisfy';
+    font-size: 27px;
+    margin-left: -318px;
+}
+.input-group-text {
+    background: tomato;
+}
+p.scr.text-muted {
+    margin-left: -328px;
+}
+.texh{
+    color: tomato;
+     font-family: 'Satisfy';
+}
+.para span{
+    color: tomato;
+}
+
+
+
+
+
+
+/*videoslide*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.vidcls{
+    background: linear-gradient(to right,deeppink,pink);
+}
+.vid.container{
+    width:100%;
+    color:skyblue;
+}
+
+.vidsub{
+    padding: 20px 0;
+    color:black;
+    font-size: 44px;
+    text-align: center;
+    font-family: monospace;
+}
+.one.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 40%;
+    min-width: 250px;
+    margin-left: 50px;
+}
+
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.small-img-row{
+    display: flex;
+    background: white;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+    color: black;
+    height: 100px;
+}
+.small-img{
+   position: relative;
+    
+}
+
+.small-img img{
+    width:100px;
+}
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+    
+}
+.playbtn{
+    width: 60px;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    cursor: pointer;
+    color: #e4a10b;
+}
+.smallbtn{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    cursor: pointer;
+    color: #e4a10b;
+}
+.video-palyer{
+    width: 80%;
+     position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top:50%;
+    height: 60%;
+    display: none;
+}
+video:focus{
+    outline: none;
+}
+.closebtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: aqua;
+    cursor: pointer;
+}
+
+/*....................price section......................*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Teko:wght@300;400;500;600&display=swap');
+/*font-family: 'Acme', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Playball&family=Teko:wght@300;400;500;600&display=swap');
+/*font-family: 'Playball', cursive;*/
+
+.pricesection{
+    background: linear-gradient(#000000b8,#00000094), url(../images/shop3.jpg);
+    margin-bottom: 20px;
+}
+.discription{
+    color: wheat;
+    float: left;
+    overflow: hidden;
+}
+.pheader{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+    transition: 0.4s;
+}
+.pheader1{
+    font-family: 'Playball', cursive;
+    transition: 0.4s;
+}
+.aboutours{
+    font-family: 'Playball', cursive;
+    font-weight: 600;
+    margin-top: 35px;
+    color: #ffb150;
+}
+.demoo{
+    padding: 7px;
+    border-radius: 9px;
+    background: tomato;
+    border: none;
+    color: wheat;
+    font-weight: 800;
+    margin-top: 20px;
+        margin-bottom: 30px;
+}
+.linkedin{
+    float: right;
+    overflow: hidden;
+}
+.pIcons{
+        float: right;
+    color: #ceb925;
+    font-size: 30px;
+    margin-right: 112px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.btnP{
+    margin-top: 125px;
+    padding: 10px;
+    margin-left: 100px;
+}
+.srcbtn{
+        padding: 10px;
+    margin: 6px;
+    background: tomato;
+    border-radius: 8px;
+    border: none;
+}
+button.clkbtn {
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: brown;
+    color: wheat;
+    margin-right: 31px;
+    margin-top: 61px;
+    overflow: hidden;
+    transition: 0.4s;
+  
+}
+.clkbtn i{
+    transition-delay: 0.4s;
+     transform: translateY(-40px);
+}
+.clkbtn:hover{
+    transform: scale(1.2);
+}
+.clkbtn:hover i{
+    transform: translateY(0px);
+}
+.pIcons:hover{
+    transform: scale(1.1);
+}
+.carusel{
+    
+}
+.dtls{
+    color: black;
+}
+.carsalimg{
+    width: 100%;
+    background: black;
+}
+.carsalimg:hover{
+    transform: scale(1.1);
+}
+.pricebtn{
+    background: tomato;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.producth {
+    text-align: center;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: #444;
+    font-size: 34px;
+}
+
+.productdtls {
+    text-align: center;
+    /* width: 661px; */
+    /* display: grid; */
+    /* align-items: center; */
+    font-family: emoji;
+    color: #e4290b;
+}
+.productdtls1 {
+    text-align: center;
+    /* width: 661px; */
+    /* display: grid; */
+    /* align-items: center; */
+    font-family: emoji;
+    color: #e4290b;
+    line-height: 0px;
+}
+hr {
+    width: 35px;
+    margin: auto;
+    background: orange;
+    padding: 1px;
+}
+.second{
+    background: black;
+}
+.dtls{
+    color: wheat;
+}
+.aboutprize{}
+.foothd{
+      color: tomato;
+    font-family: cursive;
+}
+.prdctlist{
+    color: wheat;
+    text-decoration: none;
+}
+ .prdctlist li{
+   
+    text-decoration: none;
+    margin-left: 15px;
+    color: #9ac90b;
+    margin-top: 10px;
+    font-family: emoji;
+    letter-spacing: px;
+}
+.commentbox{}
+.msg{
+        color: tomato;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+#textcomment{
+        color: #090216;
+    background: #9ac90b;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #d6f86f;
+}
+input.btn.btn-success {
+    margin-top: 15px;
+}
+.pricefoot{}
+.socialpart{}
+a.conphn {
+    color: #9ac90b;
+    text-decoration: none;
+    padding: 20px;
+}
+.phnp {
+    padding: 10px;
+    font-size: 20px;
+}
+a.email {
+    color: #9ac90b;
+}
+.eicon{
+    font-size: 20px;
+    padding: 10px;
+}
+.youtubeicon{
+    color: red;
+}
+a.iconfb{
+    color:  #3b5998;
+    font-size: 20px;
+}
+a.iconinsta{
+    color: #e4405f;
+    font-size: 20px;
+}
+a.icontwit{
+   color: #55acee; 
+    font-size: 20px;
+}
+a.iconlinked{
+   color: #0077B5;
+   font-size: 20px; 
+}
+a.iconyoutube{
+   color: #cd201f;
+   font-size: 20px; 
+}
+.{}
+.{}
+.{}
+
+
+/*-----------------------------------------------------------------online order css------------------------------------------------------------------*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.frmsection{
+    background: url(../images/download2.jpg);
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-size: 100%;
+}
+.form{
+    width: 400px;
+    display: grid;
+    align-items: center;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    color: wheat;
+}
+.frmhead{
+    text-align: center;
+    background: linear-gradient(to right,#8a0b0b,#080101);
+    margin: 10px;
+}
+.prdtbox{
+    display: inline;
+}
+lable{
+    margin-bottom: 10px;
+}
+.btn{
+    background: linear-gradient(to right,#8a0b0b,#080101);
+    padding: 10px;
+    color: wheat;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background:  linear-gradient(to right,#080101,#8a0b0b);
+    transform: scale(0.9);
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+
+
+

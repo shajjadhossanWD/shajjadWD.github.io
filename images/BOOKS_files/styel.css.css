@@ -1,0 +1,262 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
+/*font-family: 'Satisfy', cursive;*/
+.books1{
+    background: linear-gradient(#310909,#a26c08);
+        margin-bottom: 35px; 
+}
+img {
+    width:  370px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+.col-md-7.col-sm-12 h1 {
+    color: wheat;
+}
+.col-md-7.col-sm-12 p {
+    color: wheat;
+}
+.dropdown-content {
+    color: white;
+}
+a.nav-link {
+    color: white;
+}
+a.nav-link:hover {
+    color: tomato;
+}
+h6 {
+    color: white;
+    letter-spacing: 2px;
+}
+i.fas.fa-book-reader {
+    font-size: 40px;
+    margin-left: 20px;
+    color: wheat;
+}
+
+i.fas.fa-book-reader:hover {color: tomato;}
+button.btn.btn-light.px-5.py-2:hover {
+    background: #ddd;
+}
+.pannel.text-left {
+    background: #ddd;
+    margin-top: 85px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    height: 240px;
+    margin-left: 25px;
+        margin-left: -30px;
+    box-shadow: 2px 5px 7px #777;
+    position: absolute;
+}
+.pannel.text-left h2 {
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pannel.text-left p {
+    margin-top: -20px;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 24px;
+    letter-spacing: -1px;
+    line-height: 25px;
+        padding-bottom: 20px;
+}
+.pray img {
+    width: 100%;
+        margin-left: 25px;
+    position: relative;
+}
+
+.cover{
+    width: 100%;
+    background: url(../images/back.jpg);
+    height: 190px;
+}
+.content.text-center h1 {
+    text-align: center;
+    color: wheat;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+.content.text-center p {
+    color: wheat;
+    padding-top: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+section.section2.container-fluid.p-0 {
+    margin-top: 35px;
+}
+.rect{
+    background: white;
+    width: 165px;
+    padding-left: 45px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 8px 10px 14px #620d1c;
+    border-radius: 8px;
+    margin-top: -65px;
+        margin-bottom: 50px;
+}
+.rect h1 {
+    padding-right: 95px;
+    font-size: 35px;
+}
+
+.rect p {
+    padding-right: 95px;
+    font-size: 14px;
+}
+.purches.text-center h1 {
+    padding: 30px;
+    font-family: 'Satisfy', cursive;
+    background: radial-gradient(#9393e8, transparent);
+    border-radius: 105px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 30;
+}
+
+.purches.text-center p {
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: -20px;
+}
+.card {
+    padding: 0px;
+    margin: 35px;
+    box-shadow: 8px 10px 20px #85859e;
+    border-radius: 8px;
+}
+.title {
+    background: rgb(47 90 137 / 36%);
+    padding: 3px;
+}
+
+.title h5 {
+    padding-top: 13px;
+}
+a.btn.btn-dark.px-5.py-2.mb-5 {
+    margin-top: 26px;
+    font-family: 'Satisfy';
+}
+section.section3.container-fluid.p-0.text-center {
+    background: linear-gradient(#0000008f,#0000006b) ,url(../images/bookback.jpg);
+    color: wheat;
+        margin-top: 55px;
+}
+h1.social {
+    padding-top: 10px;
+    font-family: ui-serif;
+    margin-top: 25px;
+}
+p.sociall {
+    padding-top: 10px;
+    font-family: emoji;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.daskphn.d-flex.flex-row.justify-content-center {
+    background: chocolate;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: black;
+    border-radius: 31px;
+    margin-bottom: 20px;
+}
+.deskphn.d-flex.flex-row.justify-content-center {
+    background: chocolate;
+     margin-left: 120px;
+    margin-right: 120px;
+    color: black;
+    border-radius: 31px;
+    margin-bottom: 20px;
+}
+section.section4 {
+    margin-top: 30px;
+}
+
+.card.mr-2.d-inline-block.shadow-lg {
+    margin: 0;
+    /* padding-top: 0; */
+    width: 75%;
+    box-shadow: 8px 8px 10px #ddd;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+.card-body p {
+    font-size: 13px;
+    font-family: fantasy;
+}
+
+.card-body h3 {
+    font-family: fantasy;
+}
+h1.text-dark {font-family: 'Satisfy', cursive;}
+
+p.text-secondary {
+    font-family: 'Satisfy', cursive;
+}
+footer {
+    background: #292525;
+    margin-top: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.column {
+    color: tomato;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: -15px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    padding: 5px;
+    cursor: pointer;
+}
+h4.tex {
+    color: tomato;
+    font-family: 'Satisfy';
+    letter-spacing: 1px;
+}
+h4.texy {
+    color: tomato;
+    font-family: 'Satisfy';
+    font-size: 27px;
+    margin-left: -318px;
+}
+.input-group-text {
+    background: tomato;
+}
+p.scr.text-muted {
+    margin-left: -328px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

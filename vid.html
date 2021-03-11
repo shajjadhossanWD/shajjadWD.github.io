@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+              <link rel="stylesheet" href="css/styel.css.css">
+
+
+</head>
+<body class="vidcls">
+    <div class="vid container">
+        <h1 class="vidsub">HOW TO MAKE A VIDEO GLARY.</h1>
+        <div class="one row">
+           <div class="col col-md-6">
+            <div class="feature-img">
+                <img src="images/rain%20fall.jpg" width="100%">
+                <i class="playbtn fas fa-play-circle" onclick="playVideo('images/mixkit-very-close-shot-of-the-leaves-of-a-tree-wet-18310.mp4')"></i>
+            </div>
+            </div>
+            <div class="col col-md-6">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/cuple.jpg" alt="">
+                        <i class="smallbtn fas fa-play-circle"onclick="playVideo('images/mixkit-lovers-walking-through-a-lavender-field-4530.mp4')"></i>
+                        
+                    </div>
+                    <p>How to add multiple videos in a website or <br>to make a video gallery</p>
+                </div>
+                 <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/naty.jpg" alt="">
+                        <i class="smallbtn fas fa-play-circle"onclick="playVideo('images/mixkit-very-close-shot-of-the-leaves-of-a-tree-wet-18310.mp4')"></i>
+                    </div>
+                    <p>How to add multiple videos in a website or <br>to make a video gallery</p>
+                </div>
+                 <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/FB_IMG_1452845192368.jpg" alt="">
+                        <i class="smallbtn fas fa-play-circle"onclick="playVideo('images/mixkit-lovers-walking-through-a-lavender-field-4530.mp4')"></i>
+                    </div>
+                    <p>How to add multiple videos in a website or <br>to make a video gallery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vid container">
+        <h1 class="vidsub">HOW TO MAKE A VIDEO GLARY.</h1>
+        <div class="one row">
+           <div class="col col-md-6">
+            <div class="feature-img">
+                <img src="images/rain%20fall.jpg" width="100%">
+                <i class="playbtn fas fa-play-circle" onclick="playVideo('images/mixkit-very-close-shot-of-the-leaves-of-a-tree-wet-18310.mp4')"></i>
+            </div>
+            </div>
+            <div class="col col-md-6">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/cuple.jpg" alt="">
+                        <i class="smallbtn fas fa-play-circle"onclick="playVideo('images/mixkit-lovers-walking-through-a-lavender-field-4530.mp4')"></i>
+                        
+                    </div>
+                    <p>How to add multiple videos in a website or <br>to make a video gallery</p>
+                </div>
+                 <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/naty.jpg" alt="">
+                        <i class="smallbtn fas fa-play-circle"onclick="playVideo('images/mixkit-very-close-shot-of-the-leaves-of-a-tree-wet-18310.mp4')"></i>
+                    </div>
+                    <p>How to add multiple videos in a website or <br>to make a video gallery</p>
+                </div>
+                 <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/FB_IMG_1452845192368.jpg" alt="">
+                        <i class="smallbtn fas fa-play-circle"onclick="playVideo('images/mixkit-lovers-walking-through-a-lavender-field-4530.mp4')"></i>
+                    </div>
+                    <p>How to add multiple videos in a website or <br>to make a video gallery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-palyer" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="images/mixkit-very-close-shot-of-the-leaves-of-a-tree-wet-18310.mp4" type="video/mp4">
+        </video>
+        <i class="closebtn fas fa-times-circle" onclick="stopVideo()"></i>
+    </div>
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+        
+    function stopVideo(){
+        
+        videoPlayer.style.display = "none";
+        
+    }
+        function playVideo(file){
+            
+          myVideo.src =file;
+            videoPlayer.style.display = "block";
+            
+            
+        }
+        
+    </script>
+</body>
+</html>
